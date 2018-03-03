@@ -32,3 +32,4 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
     37                                               # Deconvolve the grid using convolution theorem
     38         1           16     16.0      0.1      k = nufftfreqs(M)
     39         1           61     61.0      0.2      return (1 / N) * np.sqrt(np.pi / tau) * np.exp(tau * k ** 2) * Ftau
+
